@@ -31,7 +31,7 @@ services:
     volumes:
       - './www:/usr/share/nginx/html:ro'
     environment:
-      - 'VIRTUAL_HOST=jesusyaro.com,www.jesusyaro.com,zacatelco.app,www.zacatelco.app'
+      - 'VIRTUAL_HOST=localhost,jesusyaro.com,www.jesusyaro.com,zacatelco.app,www.zacatelco.app'
       - 'LETSENCRYPT_HOST=jesusyaro.com,www.jesusyaro.com,zacatelco.app,www.zacatelco.app'
       - LETSENCRYPT_EMAIL=jesusaleyaro@hotmail.com
     depends_on:
