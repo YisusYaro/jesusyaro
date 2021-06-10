@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.example.clubpago",
+                 "sha256_cert_fingerprints": ["7B:FC:9F:BD:D8:E1:6C:3D:2A:D6:D3:68:01:26:C8:AB:6F:9A:BB:EA:C2:C1:16:6D:1E:E5:85:50:B0:E9:FC:D1"] }
+  }]
