@@ -29,7 +29,7 @@ services:
     expose:
       - '80'
     volumes:
-      - './www:/usr/share/nginx/html:ro'
+      - './docs:/usr/share/nginx/html:ro'
     environment:
       - 'VIRTUAL_HOST=localhost,jesusyaro.com,www.jesusyaro.com,zacatelco.app,www.zacatelco.app'
       - 'LETSENCRYPT_HOST=jesusyaro.com,www.jesusyaro.com,zacatelco.app,www.zacatelco.app'
